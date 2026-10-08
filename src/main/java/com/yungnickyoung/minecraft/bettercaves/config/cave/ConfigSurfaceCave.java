@@ -11,17 +11,15 @@ public class ConfigSurfaceCave {
 
     @Config.Name("Surface Cave Minimum Altitude")
     @Config.Comment(
-        "The minimum y-coordinate at which surface caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+        "The minimum y-coordinate at which surface caves can generate.\n" +
             "Default: 40")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveBottom = 40;
 
     @Config.Name("Surface Cave Maximum Altitude")
     @Config.Comment(
-        "The maximum y-coordinate at which surface caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+        "The maximum y-coordinate at which surface caves can generate.\n" +
             "Default: 128")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveTop = 128;
 

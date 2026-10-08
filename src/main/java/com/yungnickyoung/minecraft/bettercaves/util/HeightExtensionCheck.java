@@ -13,7 +13,7 @@ public class HeightExtensionCheck {
     public static int getMaxY(World world){
         if (!Loader.isModLoaded("depthsupdate")) return maxY;
         try {
-           return HeightManager.getMaxY(world);
+           return (HeightManager.getMaxY(world) - 1);
         } catch (Exception e) {
             return maxY;
         }

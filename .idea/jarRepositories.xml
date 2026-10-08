@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="modsRemap" />
+      <option name="name" value="modsRemap" />
+      <option name="url" value="file://$PROJECT_DIR$/.gradle/unimined/local/modTransform" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="uniminedMaven" />
+      <option name="name" value="uniminedMaven" />
+      <option name="url" value="file://$PROJECT_DIR$/../.gradle/caches/unimined/maven/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="forge" />
+      <option name="name" value="forge" />
+      <option name="url" value="https://maven.minecraftforge.net/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenLocal" />
+      <option name="name" value="MavenLocal" />
+      <option name="url" value="file:$MAVEN_REPOSITORY$/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cleanroom-org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@1687352f" />
+      <option name="name" value="cleanroom-org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@1687352f" />
+      <option name="url" value="https://repo.cleanroommc.com/snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cleanroom-org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@24543555" />
+      <option name="name" value="cleanroom-org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@24543555" />
+      <option name="url" value="https://repo.cleanroommc.com/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="arcseekers" />
+      <option name="name" value="arcseekers" />
+      <option name="url" value="https://maven.arcseekers.com/releases" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="minecraft" />
+      <option name="name" value="minecraft" />
+      <option name="url" value="https://libraries.minecraft.net/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CurseMaven" />
+      <option name="name" value="CurseMaven" />
+      <option name="url" value="https://cursemaven.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="CleanroomCurseMaven" />
+      <option name="name" value="CleanroomCurseMaven" />
+      <option name="url" value="https://curse.cleanroommc.com" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Modrinth" />
+      <option name="name" value="Modrinth" />
+      <option name="url" value="https://api.modrinth.com/maven" />
+    </remote-repository>
+  </component>
+</project>

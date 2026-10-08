@@ -56,5 +56,5 @@ dependencies {
     // implementation ('com.google.code.gson:gson:2.8.6') {
     //     transitive = false
     // }
-    modCompileOnly files('libs/depthsupdate-1.12.2-1.0.0-a12.jar')
+    compileOnly ('curse.maven:depths-update-1472501:8570330')
 }

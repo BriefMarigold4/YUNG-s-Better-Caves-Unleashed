@@ -5,17 +5,15 @@ import net.minecraftforge.common.config.Config;
 public class ConfigVanillaCave {
     @Config.Name("Vanilla Cave Minimum Altitude")
     @Config.Comment(
-        "The minimum y-coordinate at which vanilla caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+        "The minimum y-coordinate at which vanilla caves can generate.\n" +
          "Default: 8")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveBottom = 8;
 
     @Config.Name("Vanilla Cave Maximum Altitude")
     @Config.Comment(
-        "The maximum y-coordinate at which vanilla caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+        "The maximum y-coordinate at which vanilla caves can generate.\n" +
          "Default: 128")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveTop = 128;
 

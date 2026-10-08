@@ -6,17 +6,15 @@ import net.minecraftforge.common.config.Config;
 public class ConfigCubicCave {
     @Config.Name("Type 1 Cave Minimum Altitude")
     @Config.Comment(
-            "The minimum y-coordinate at which type 1 caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+            "The minimum y-coordinate at which type 1 caves can generate.\n" +
             "Default: 1")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveBottom = 1;
 
     @Config.Name("Type 1 Cave Maximum Altitude")
     @Config.Comment(
-            "The maximum y-coordinate at which type 1 caves can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+            "The maximum y-coordinate at which type 1 caves can generate.\n" +
             "Default: 80")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveTop = 80;
 
@@ -24,9 +22,8 @@ public class ConfigCubicCave {
     @Config.Comment(
             "The depth from a given point on the surface at which type 1 caves start to close off.\n" +
             "    Will use the Max Cave Altitude instead of surface height if it is lower.\n" +
-            "    Will use the Max Cave Altitude no matter what if Override Surface Detection is enabled.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+            "    Will use the Max Cave Altitude no matter what if Override Surface Detection is enabled.\n" +
             "Default: 15 (recommended)")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int caveSurfaceCutoff = 15;
 

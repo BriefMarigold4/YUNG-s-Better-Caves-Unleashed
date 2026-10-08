@@ -9,7 +9,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.ChunkPrimer;
-import com.yungnickyoung.minecraft.bettercaves.util.HeightExtensionCheck;
 
 import java.util.function.Predicate;
 
@@ -19,9 +18,6 @@ import java.util.function.Predicate;
  * and as such may be accessed freely.
  */
 public class BetterCavesUtils {
-    private int maxY;
-    private int minY;
-
     private BetterCavesUtils() {} // Private constructor prevents instantiation
 
     /**
@@ -65,7 +61,7 @@ public class BetterCavesUtils {
                 return y;
         }
 
-        return bottomY + 1; // Surface somehow not found
+        return 1; // Surface somehow not found
     }
 
     public static String dimensionAsString(int dimensionID, String dimensionName) {

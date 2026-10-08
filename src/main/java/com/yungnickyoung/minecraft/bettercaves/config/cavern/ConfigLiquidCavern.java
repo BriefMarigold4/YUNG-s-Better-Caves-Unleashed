@@ -6,18 +6,16 @@ import net.minecraftforge.common.config.Config;
 public class ConfigLiquidCavern {
     @Config.Name("Liquid Cavern Minimum Altitude")
     @Config.Comment(
-            "The minimum y-coordinate at which Liquid Caverns can generate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+            "The minimum y-coordinate at which Liquid Caverns can generate.\n" +
             "Default: 1")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int cavernBottom = 1;
 
     @Config.Name("Liquid Cavern Maximum Altitude")
     @Config.Comment(
             "The maximum y-coordinate at which Liquid Caverns can generate.\n" +
-            "    Caverns will attempt to close off anyway if this value is greater than the surface's altitude.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+            "    Caverns will attempt to close off anyway if this value is greater than the surface's altitude.\n" +
             "Default: 35")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int cavernTop = 35;
 

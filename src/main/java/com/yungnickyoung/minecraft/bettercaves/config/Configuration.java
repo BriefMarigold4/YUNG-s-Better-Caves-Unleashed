@@ -25,10 +25,6 @@ public class Configuration {
     @Config.Comment("Configure how bedrock generates in the overworld and nether.")
     public static ConfigBedrockGen bedrockSettings = new ConfigBedrockGen();
 
-    @Config.Name("Multithread Generation")
-    @Config.Comment("Configure the workings for multithreaded noise generation.")
-    public static final ConfigMultithreading multithreadSettings = new ConfigMultithreading();
-
     @Config.Name("Debug settings")
     @Config.Comment("Don't mess with these settings for normal gameplay.")
     public static ConfigDebug debugsettings = new ConfigDebug();

@@ -5,9 +5,8 @@ import net.minecraftforge.common.config.Config;
 public class ConfigMisc {
     @Config.Name("Liquid Altitude")
     @Config.Comment(
-        "Lava (or water in water regions) spawns at and below this y-coordinate.\nSetting this below 0 or above 255 without Depths Update installed and its respective height extension will crash the game!\n" +
+        "Lava (or water in water regions) spawns at and below this y-coordinate.\n" +
         "Default: 10")
-    @Config.RangeInt(min = -256, max = 511)
     @Config.RequiresWorldRestart
     public int liquidAltitude = 10;
 

@@ -1,0 +1,48 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "remapped_curse.maven",
+    "module": "depths-update-1472501",
+    "version": "8570330",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "java-api",
+        "org.gradle.libraryelements": "jar"
+      },
+      "files": [
+        {
+          "name": "depths-update-1472501-8570330.jar",
+          "url": "depths-update-1472501-8570330.jar"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.usage": "java-runtime",
+        "org.gradle.libraryelements": "jar"
+      },
+      "files": [
+        {
+          "name": "depths-update-1472501-8570330.jar",
+          "url": "depths-update-1472501-8570330.jar"
+        }
+      ]
+    }
+  ]
+}

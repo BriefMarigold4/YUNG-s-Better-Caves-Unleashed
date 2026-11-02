@@ -6,7 +6,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="YUNG-s-Better-Caves-Unleashed-BACKUP DO NOT DELETE.main" options="" />
+      <module name="YUNG-s-Better-Caves-Unleashed.main" options="" />
     </option>
   </component>
 </project>

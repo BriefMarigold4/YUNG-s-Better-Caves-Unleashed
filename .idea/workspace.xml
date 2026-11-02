@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e6aabd-6927-44ba-b774-53fc80716799" name="Changes" comment="" />
+    <list default="true" id="e9e6aabd-6927-44ba-b774-53fc80716799" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/unimined/local/mappings/srg2mcp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/unimined/local/mappings/srg2mcp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/YUNG-s-Better-Caves-Unleashed.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/YUNG-s-Better-Caves-Unleashed.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/scripts/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/scripts/dependencies.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/config/BCSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/config/BCSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/util/HeightExtensionCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/util/HeightExtensionCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/versions.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +66,65 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0616662045023995" />
+      <entry key="MS500" value="2.2767792536730873" />
+      <entry key="S2" value="4.84863292221308" />
+      <entry key="S5" value="7.920356762620689" />
+      <entry key="S10" value="10.966319037499474" />
+      <entry key="S30" value="15.921067507657575" />
+      <entry key="S60" value="18.112255379959876" />
+      <entry key="M2" value="19.453754310574446" />
+      <entry key="M5" value="20.354636044359818" />
+      <entry key="M10" value="20.672632923621364" />
+      <entry key="M15" value="20.780698162827886" />
+      <entry key="M30" value="20.889816463504154" />
+      <entry key="H1" value="20.944774310534196" />
+      <entry key="H2" value="20.972353578605205" />
+      <entry key="H4" value="20.98616838306011" />
+      <entry key="D1" value="20.99769356194978" />
+      <entry key="W1" value="20.999670480218775" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9896752475273681" />
+      <entry key="MS500" value="2.2405561060642216" />
+      <entry key="S2" value="4.827979965923415" />
+      <entry key="S5" value="7.9047710381204395" />
+      <entry key="S10" value="10.946300977208033" />
+      <entry key="S30" value="15.89777832483873" />
+      <entry key="S60" value="18.095396223060565" />
+      <entry key="M2" value="19.443555006789413" />
+      <entry key="M5" value="20.35005525522525" />
+      <entry key="M10" value="20.670251812453603" />
+      <entry key="M15" value="20.779090029233785" />
+      <entry key="M30" value="20.88900188855667" />
+      <entry key="H1" value="20.94436436850093" />
+      <entry key="H2" value="20.97214794048015" />
+      <entry key="H4" value="20.98606539678514" />
+      <entry key="D1" value="20.99767637430963" />
+      <entry key="W1" value="20.999668024271465" />
+    </decayedShown>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -53,29 +133,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CleanroomModTemplate [genSources].executor": "Run",
-    "Gradle.CleanroomModTemplate [generateTemplates].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed [genSources].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed [generateTemplates].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed-BACKUP DO NOT DELETE [generateTemplates].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/briefmarigold4/YUNG-s-Better-Caves-Unleashed",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CleanroomModTemplate [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CleanroomModTemplate [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed-BACKUP DO NOT DELETE [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.rewrite-copy [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/briefmarigold4/YUNG-s-Better-Caves-Unleashed&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -91,7 +172,7 @@
     <configuration name="1. Build" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -116,7 +197,7 @@
     <configuration name="2. Run Client" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -141,7 +222,7 @@
     <configuration name="3. Run Server" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -167,8 +248,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-2df11533d9fe-intellij.indexing.shared.core-IU-262.11879.100" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.11879.100" />
       </set>
     </attachedChunks>
   </component>

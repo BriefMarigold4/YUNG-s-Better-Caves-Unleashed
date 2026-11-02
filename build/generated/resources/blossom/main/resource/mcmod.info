@@ -1,0 +1,15 @@
+[{
+  "authorList": ["YUNGNICKYOUNG", "BriefMarigold4"],
+  "credits": "Special thanks to kilo from the Rebirth of the Night team for supporting me on Patreon!",
+  "description": "Extremely stupid attempt at trying to make YUNG's Better Caves work with Depths Update",
+  "logoFile": "BetterCavesLogo.png",
+  "mcversion": "1.12.2",
+  "modProperties": {
+    "issueTrackerUrl": ""
+  },
+  "modid": "bettercaves",
+  "name": "YUNG's Better Caves Unleashed",
+  "updateJSON": "",
+  "url": "https://github.com/BriefMarigold4/YUNG-s-Better-Caves-Unleashed",
+  "version": "3.1.0"
+}]

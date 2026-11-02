@@ -71,5 +71,15 @@
       <option name="name" value="Modrinth" />
       <option name="url" value="https://api.modrinth.com/maven" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="modsRemap" />
+      <option name="name" value="modsRemap" />
+      <option name="url" value="file://$PROJECT_DIR$/.gradle/unimined/local/modTransform" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="modsRemap" />
+      <option name="name" value="modsRemap" />
+      <option name="url" value="file://$PROJECT_DIR$/.gradle/unimined/local/modTransform/" />
+    </remote-repository>
   </component>
 </project>

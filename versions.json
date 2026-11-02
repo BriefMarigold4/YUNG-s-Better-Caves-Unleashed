@@ -6,10 +6,11 @@
     "2.0.2": "Vanilla and surface caves now flood properly.",
     "2.0.3": "Fix caves flooding above sea level. Potential minor performance improvements.",
     "2.0.4": "Fix flooded caves and caverns being messed up and having weird walls along chunk boundaries in some modded biomes (OTG).",
-    "3.0.0": "The new age; major changes ahead."
+    "3.0.0": "The new age; major changes ahead.",
+    "3.1.0": "Backported default cave generation values from Better Caves 1.16.5"
   },
   "promos": {
-    "1.12.2-latest": "3.0.0",
-    "1.12.2-recommended": "3.0.0"
+    "1.12.2-latest": "3.1.0",
+    "1.12.2-recommended": "3.1.0"
   }
 }

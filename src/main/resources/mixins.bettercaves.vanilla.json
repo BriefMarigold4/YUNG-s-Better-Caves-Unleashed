@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.yungnickyoung.minecraft.bettercaves.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "target": "@env(DEFAULT)",
+  "minVersion": "0.8",
+  "mixins": [
+    "vanilla.BiomeCacheMixin"
+  ],
+  "injectors": {
+    "maxShiftBy": 10
+  }
+}

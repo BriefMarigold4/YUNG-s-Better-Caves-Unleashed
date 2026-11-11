@@ -14,7 +14,7 @@ public class BCSettings {
     public static final boolean USE_META_DATA = true;
     public static final String MOD_ID = "bettercaves";
     public static final String NAME = "YUNG's Better Caves Unleashed";
-    public static final String VERSION = "3.1.0";
+    public static final String VERSION = "3.0.1";
 
     public static final String SERVER_PROXY = "com.yungnickyoung.minecraft.bettercaves.proxy.ServerProxy";
     public static final String CLIENT_PROXY = "com.yungnickyoung.minecraft.bettercaves.proxy.ClientProxy";

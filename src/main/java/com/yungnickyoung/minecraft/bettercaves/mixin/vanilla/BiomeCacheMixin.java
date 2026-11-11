@@ -13,40 +13,40 @@ public abstract class BiomeCacheMixin {
 
     //Quick and dirty thread safety, slight overhead but much less cost than the rest of the savings
     @Unique
-    private final ReentrantLock noisethreader$cacheLock = new ReentrantLock();
+    private final ReentrantLock bettercaves$cacheLock = new ReentrantLock();
 
     @WrapMethod(
             method = "getEntry"
     )
-    private BiomeCache.Block noisethreader_vanillaBiomeCache_getEntry(int x, int z, Operation<BiomeCache.Block> original) {
+    private BiomeCache.Block bettercaves_vanillaBiomeCache_getEntry(int x, int z, Operation<BiomeCache.Block> original) {
         if(!Configuration.multithreadBetterCavesNoise) {
             return original.call(x, z);
         }
 
-        this.noisethreader$cacheLock.lock();
+        this.bettercaves$cacheLock.lock();
         try {
             return original.call(x, z);
         }
         finally {
-            this.noisethreader$cacheLock.unlock();
+            this.bettercaves$cacheLock.unlock();
         }
     }
 
     @WrapMethod(
             method = "cleanupCache"
     )
-    private void noisethreader_vanillaBiomeCache_cleanupCache(Operation<Void> original) {
+    private void bettercaves_vanillaBiomeCache_cleanupCache(Operation<Void> original) {
         if(!Configuration.multithreadBetterCavesNoise) {
             original.call();
             return;
         }
 
-        this.noisethreader$cacheLock.lock();
+        this.bettercaves$cacheLock.lock();
         try {
             original.call();
         }
         finally {
-            this.noisethreader$cacheLock.unlock();
+            this.bettercaves$cacheLock.unlock();
         }
     }
 }

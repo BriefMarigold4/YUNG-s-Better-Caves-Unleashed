@@ -15,7 +15,6 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.chunk.ChunkPrimer;
 import net.minecraftforge.common.BiomeDictionary;
 import com.yungnickyoung.minecraft.bettercaves.config.Configuration;
@@ -132,13 +131,17 @@ public class CaveCarverController {
             return;
         }
 
+        boolean[][][] oceanState = this.computeOceanState(chunkX, chunkZ);
+
         this.shouldCarveVanillaCaves = false;
         this.vanillaCarvingMask = new boolean[16][16];
         this.columnCarverHolders = new ColumnCarverHolder[4][4][4][4];
 
         try {
             //Last 16 pos iterations rely on the same noisecube based on order, so group them to be handled in the same thread each
-            IntStream.range(0, 16).parallel().forEach(subIndex -> this.genChunkCarverSection(chunkX, chunkZ, surfaceAltitudes, liquidBlocks, subIndex/4, subIndex%4));
+            IntStream.range(0, 16).parallel().forEach(subIndex ->
+                    this.genChunkCarverSection(chunkX, chunkZ, surfaceAltitudes, liquidBlocks,
+                            subIndex / 4, subIndex % 4, oceanState[0], oceanState[1]));
         }
         catch(Exception ex) {
             BetterCaves.LOGGER.log(Level.ERROR, "BetterCaves Multithreaded Noise encountered an error: " + ex.getMessage(), ex);
@@ -209,7 +212,7 @@ public class CaveCarverController {
         }
     }
 
-    private void genChunkCarverSection(int chunkX, int chunkZ, int[][] surfaceAltitudes, IBlockState[][] liquidBlocks, int subX, int subZ) {
+    private void genChunkCarverSection(int chunkX, int chunkZ, int[][] surfaceAltitudes, IBlockState[][] liquidBlocks, int subX, int subZ, boolean[][] floodedArr, boolean[][] skipArr) {
         int startX = subX * 4;
         int startZ = subZ * 4;
         int endX = startX + 4 - 1;
@@ -237,14 +240,8 @@ public class CaveCarverController {
                 int localX = startX + offsetX;
                 int localZ = startZ + offsetZ;
                 BlockPos colPos = new BlockPos(chunkX * 16 + localX, 1, chunkZ * 16 + localZ);
-                boolean flooded = isFloodedUndergroundEnabled && !isDebugViewEnabled && BiomeDictionary.hasType(world.getBiome(colPos), BiomeDictionary.Type.OCEAN);
-                if(flooded) {
-                    if(!BiomeDictionary.hasType(world.getBiome(colPos.east()), BiomeDictionary.Type.OCEAN) ||
-                            !BiomeDictionary.hasType(world.getBiome(colPos.north()), BiomeDictionary.Type.OCEAN) ||
-                            !BiomeDictionary.hasType(world.getBiome(colPos.west()), BiomeDictionary.Type.OCEAN) ||
-                            !BiomeDictionary.hasType(world.getBiome(colPos.south()), BiomeDictionary.Type.OCEAN)
-                    ) continue;
-                }
+                if (skipArr[localX][localZ]) continue;
+                boolean flooded = floodedArr[localX][localZ];
 
                 int surfaceAltitude = surfaceAltitudes[localX][localZ];
                 IBlockState liquidBlock = liquidBlocks[localX][localZ];
@@ -370,5 +367,33 @@ public class CaveCarverController {
         if(this.isSurfaceCavesEnabled) {
             this.surfaceCaveCarver.generate(this.world, chunkX, chunkZ, primer, false, liquidBlocks);
         }
+    }
+
+    /*
+    * Claude code
+    * Not proud about it
+    */
+    private boolean[][][] computeOceanState(int chunkX, int chunkZ) {
+        boolean[][] flooded = new boolean[16][16];
+        boolean[][] skip = new boolean[16][16];
+        if (isFloodedUndergroundEnabled && !isDebugViewEnabled) {
+            boolean[][] ocean = new boolean[18][18]; // chunk + 1-block border
+            BlockPos.MutableBlockPos pos = new BlockPos.MutableBlockPos();
+            for (int x = -1; x <= 16; x++)
+                for (int z = -1; z <= 16; z++)
+                    ocean[x + 1][z + 1] = BiomeDictionary.hasType(
+                            world.getBiome(pos.setPos(chunkX * 16 + x, 1, chunkZ * 16 + z)),
+                            BiomeDictionary.Type.OCEAN);
+            for (int x = 0; x < 16; x++) {
+                for (int z = 0; z < 16; z++) {
+                    boolean self = ocean[x + 1][z + 1];
+                    boolean all = ocean[x + 2][z + 1] && ocean[x][z + 1]
+                            && ocean[x + 1][z + 2] && ocean[x + 1][z];
+                    flooded[x][z] = self && all;
+                    skip[x][z] = self && !all;
+                }
+            }
+        }
+        return new boolean[][][] { flooded, skip };
     }
 }

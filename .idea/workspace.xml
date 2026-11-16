@@ -12,14 +12,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/9.8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/unimined/local/mappings/srg2mcp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/unimined/local/mappings/srg2mcp.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/YUNG-s-Better-Caves-Unleashed.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/YUNG-s-Better-Caves-Unleashed.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/problems/problems-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/problems/problems-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/BetterCavesPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yungnickyoung/minecraft/bettercaves/mixin/vanilla/BiomeCacheMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mixins.bettercaves.vanilla.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,61 +71,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0003525217762506" />
-      <entry key="MS500" value="1.2039093733347523" />
-      <entry key="S2" value="1.671984564643689" />
-      <entry key="S5" value="1.8531849955962847" />
-      <entry key="S10" value="1.9602497117080468" />
-      <entry key="S30" value="3.1873000785192693" />
-      <entry key="S60" value="4.9062585705710084" />
-      <entry key="M2" value="6.675666891231385" />
-      <entry key="M5" value="11.091420320707044" />
-      <entry key="M10" value="19.465384467780435" />
-      <entry key="M15" value="25.59526568942618" />
-      <entry key="M30" value="35.11262284160506" />
-      <entry key="H1" value="41.72174423914447" />
-      <entry key="H2" value="45.62740425138779" />
-      <entry key="H4" value="47.751905185230115" />
-      <entry key="D1" value="49.61642687413104" />
-      <entry key="W1" value="49.94498197869057" />
+      <entry key="MS100" value="1.0000309435893526" />
+      <entry key="MS500" value="1.1346302763729745" />
+      <entry key="S2" value="2.8130713325155585" />
+      <entry key="S5" value="5.81639403010378" />
+      <entry key="S10" value="8.392881837517855" />
+      <entry key="S30" value="12.258175162116599" />
+      <entry key="S60" value="14.921944487738733" />
+      <entry key="M2" value="17.421690788000788" />
+      <entry key="M5" value="22.353387849839493" />
+      <entry key="M10" value="30.880337990638775" />
+      <entry key="M15" value="37.09985364440796" />
+      <entry key="M30" value="46.78296105085996" />
+      <entry key="H1" value="53.52840596700551" />
+      <entry key="H2" value="57.52230303884361" />
+      <entry key="H4" value="59.697059962231684" />
+      <entry key="D1" value="61.60695024815997" />
+      <entry key="W1" value="61.94361972125212" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="7.736067832818208E-89" />
-      <entry key="S5" value="5.6938773467042414E-36" />
-      <entry key="S10" value="2.386184684114841E-18" />
-      <entry key="S30" value="1.3362926579858057E-6" />
-      <entry key="S60" value="0.001156823993044534" />
-      <entry key="M2" value="0.03491789578535833" />
-      <entry key="M5" value="0.31955475099137554" />
-      <entry key="M10" value="0.7554412549017975" />
-      <entry key="M15" value="1.0306855618672657" />
-      <entry key="M30" value="1.4255521463424359" />
-      <entry key="H1" value="1.685477799120508" />
-      <entry key="H2" value="1.8351857013328137" />
-      <entry key="H4" value="1.9156044731570014" />
-      <entry key="D1" value="1.9856489646783317" />
-      <entry key="W1" value="1.9979427497842746" />
+      <entry key="S2" value="3.5415593751376656E-92" />
+      <entry key="S5" value="2.6283174043511902E-37" />
+      <entry key="S10" value="5.126711815921771E-19" />
+      <entry key="S30" value="8.003498467836175E-7" />
+      <entry key="S60" value="8.95274942658031E-4" />
+      <entry key="M2" value="0.03071797873635022" />
+      <entry key="M5" value="0.3035869557197853" />
+      <entry key="M10" value="0.7363251122973923" />
+      <entry key="M15" value="1.0132240005283937" />
+      <entry key="M30" value="1.41342492755532" />
+      <entry key="H1" value="1.6782932793358332" />
+      <entry key="H2" value="1.8312701918745413" />
+      <entry key="H4" value="1.9135598374397134" />
+      <entry key="D1" value="1.9852955744375513" />
+      <entry key="W1" value="1.9978919490247617" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7422617857060976" />
-      <entry key="MS500" value="0.9552702803931481" />
-      <entry key="S2" value="1.3237717175144936" />
-      <entry key="S5" value="1.6426694434340707" />
-      <entry key="S10" value="1.8387369702570018" />
-      <entry key="S30" value="3.1406639860892716" />
-      <entry key="S60" value="4.882015906367919" />
-      <entry key="M2" value="6.695780944398342" />
-      <entry key="M5" value="11.399862111273858" />
-      <entry key="M10" value="20.21095795542798" />
-      <entry key="M15" value="26.61746342341302" />
-      <entry key="M30" value="36.532520910749504" />
-      <entry key="H1" value="43.40392111567483" />
-      <entry key="H2" value="47.460801604549374" />
-      <entry key="H4" value="49.666578259332624" />
-      <entry key="D1" value="51.601915184885804" />
-      <entry key="W1" value="51.94290164177293" />
+      <entry key="MS100" value="0.9075470432413915" />
+      <entry key="MS500" value="1.1126543698970914" />
+      <entry key="S2" value="2.799038894582738" />
+      <entry key="S5" value="5.794344548669074" />
+      <entry key="S10" value="8.356555330623866" />
+      <entry key="S30" value="12.22467005195263" />
+      <entry key="S60" value="14.89995451277548" />
+      <entry key="M2" value="17.43764157185751" />
+      <entry key="M5" value="22.645685569577427" />
+      <entry key="M10" value="31.606673325125204" />
+      <entry key="M15" value="38.104484472725055" />
+      <entry key="M30" value="48.190654756641095" />
+      <entry key="H1" value="55.20334960314892" />
+      <entry key="H2" value="59.35175726016731" />
+      <entry key="H4" value="61.60967366516004" />
+      <entry key="D1" value="63.592082574191565" />
+      <entry key="W1" value="63.94148820940094" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -135,38 +136,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CleanroomModTemplate [genSources].executor": "Run",
-    "Gradle.CleanroomModTemplate [generateTemplates].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed [genSources].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed [generateTemplates].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed-BACKUP DO NOT DELETE [generateTemplates].executor": "Run",
-    "Gradle.YUNG-s-Better-Caves-Unleashed-Backup [generateTemplates].executor": "Run",
-    "Gradle.rewrite-copy [generateTemplates].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/briefmarigold4/YUNG-s-Better-Caves-Unleashed-Backup",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.CleanroomModTemplate [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CleanroomModTemplate [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed [genSources].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed-BACKUP DO NOT DELETE [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.YUNG-s-Better-Caves-Unleashed-Backup [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.rewrite-copy [generateTemplates].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/briefmarigold4/YUNG-s-Better-Caves-Unleashed-Backup&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
